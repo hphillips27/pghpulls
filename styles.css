@@ -741,3 +741,78 @@ footer {
 
 
 /* New Releases Styling */
+.page-intro {
+    text-align: center;
+    margin: 2rem auto;
+    max-width: 800px;
+    padding-top: 6rem;
+}
+
+.page-intro h1 {
+    font-size: 2.5rem;
+    color: var(--pgh-yellow);
+    margin-bottom: 0.5rem;
+}
+
+.page-intro p {
+    font-size: 1.1rem;
+    color: #ccc;
+}
+
+.release-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+    padding: 2rem;
+}
+
+.release-card {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border-radius: 1rem;
+    padding: 1.5rem;
+    color: #fff;
+    text-align: center;
+    transition: transform 0.2s ease;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.release-card:hover {
+    transform: translateY(-5px);
+}
+
+.release-card img {
+    max-width: 100%;
+    border-radius: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.release-card h2 {
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+    margin-top: auto;
+}
+
+.release-date {
+    font-size: 1.1rem;
+    color: var(--pgh-yellow);
+    font-weight: bold;
+}
+
+.Release {
+    min-height: 95vh;
+    background: linear-gradient(to bottom, #1a1a1a, rgba(7, 7, 7, 0.95));
+}
+
+.card-content {
+    margin-top: auto;
+}
+
+
+
+/* Contact Page Styling */
+
